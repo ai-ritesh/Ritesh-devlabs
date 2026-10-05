@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>document.documentElement.classList.add('js')</script>
+<title>Ritesh DevLabs | Projects, Apps, Games &amp; Experiments</title>
+<meta name="description" content="Ritesh DevLabs is the project laboratory of Ritesh: web apps, AI tools, games and experiments, each with a live demo and source code.">
+<meta name="theme-color" content="#090b10">
+<link rel="canonical" href="https://your-devlabs-domain.example/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ritesh DevLabs">
+<meta property="og:title" content="Ritesh DevLabs | Projects, Apps, Games &amp; Experiments">
+<meta property="og:description" content="The project laboratory of Ritesh: apps, games, tools and experiments.">
+<meta property="og:url" content="https://your-devlabs-domain.example/">
+<meta property="og:image" content="https://your-devlabs-domain.example/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ritesh DevLabs">
+<meta name="twitter:description" content="The project laboratory of Ritesh: apps, games, tools and experiments.">
+<meta name="twitter:image" content="https://your-devlabs-domain.example/assets/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Ritesh DevLabs","description":"Projects, apps, games and experiments built by Ritesh.","url":"https://your-devlabs-domain.example/","author":{"@type":"Person","name":"Ritesh","url":"https://riteshshowcase.qd.je/"}}
+</script>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><div class="orb"></div><div class="grid"></div></div>
+<a class="skip" href="#projects">Skip to projects</a>
+
+<header class="header" id="header">
+  <a class="avatar" href="#top" aria-label="Ritesh DevLabs home"><span>R</span><img id="avatar" src="assets/dp.png" alt="Ritesh" width="42" height="42"></a>
+  <a class="brand" href="#top">RITESH <b>DEVLABS</b></a>
+  <nav class="hnav" aria-label="Site links">
+    <a class="icon-btn" id="github-link" href="#" rel="noopener" aria-label="GitHub profile" hidden></a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="panel" style="--d:26;--rot:-4deg;left:9%;top:26%"><i class="dot"></i> lab status: online</div>
+    <div class="panel" style="--d:-34;--rot:3deg;right:8%;top:34%"><b data-count>0</b> projects loaded</div>
+    <div class="panel" style="--d:18;--rot:2deg;left:14%;bottom:16%">build: static, no framework</div>
+    <div class="particles" id="particles" aria-hidden="true"></div>
+    <div class="hero-in">
+      <h1 id="hero-title">RITESH<br><span>DEVLABS</span></h1>
+      <p class="lead">Experiments, applications, games and ideas built by Me.</p>
+      <p class="sub">DevLabs is the central laboratory for everything I builds. Each project here has a live demo / source code and the stack behind it.</p>
+      <nav class="dock" aria-label="Quick links">
+        <a href="https://github.com/ai-ritesh/ritesh-devlabs" data-repo target="_blank" rel="noopener"><span class="ic" data-i="gh"></span><span>Explore DevLabs repo</span></a>
+        <a href="#projects"><span class="ic" data-i="grid"></span><span>Explore projects</span></a>
+        <a href="https://riteshshowcase.qd.je/" data-showcase rel="noopener"><span class="ic" data-i="ext"></span><span>Ritesh Showcase</span></a>
+        <i class="dock-glow" aria-hidden="true"></i>
+      </nav>
+    </div>
+  </section>
+
+  <section class="wrap projects" id="projects" aria-labelledby="projects-title">
+    <div class="sec-head reveal">
+      <div>
+        <h2 id="projects-title">Projects</h2>
+        <p>Things I've built, experimented with, and shipped.</p>
+      </div>
+      <span class="count"><b data-count>0</b> in the lab</span>
+    </div>
+    <div class="filters reveal" id="filters" role="group" aria-label="Filter projects by category" hidden></div>
+    <div id="projects-container" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <span>&copy; <span id="year"></span> Ritesh DevLabs</span>
+  <a data-showcase href="https://riteshshowcase.qd.je/" rel="noopener">Ritesh Showcase</a>
+</footer>
+
+<dialog id="modal" aria-labelledby="modal-title"></dialog>
+<script src="script.js" defer></script>
+</body>
+</html>

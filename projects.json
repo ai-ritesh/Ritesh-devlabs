@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "id": "komorebi",
+      "name": "Komorebi",
+      "description": "A Japanese learning platform powered by AI.",
+      "longDescription": "Komorebi helps learners practise Japanese with there own Words and style, conversation practice and instant Help With AI",
+      "image": "assets/komorebi.jpg",
+      "icon": "assets/komorebi.jpg",
+      "category": "AI",
+      "type": "Web Application",
+      "status": "Live",
+      "featured": true,
+      "technologies": ["React", "TypeScript", "Firebase", "BYOK SYSTEM"],
+      "links": {
+        "demo": "https://komoreebi.onrender.com"
+  
+      },
+      "year": "2026"
+    },
+    {
+      "id": "BINGO",
+      "name": "BINGO",
+      "description": "Play Bingo online with a friend! 🎱 Enjoy real-time 1v1 gameplay, voice & text chat, and the full classic Bingo experience—all in your browser.",
+      "longDescription":"Experience the classic Bingo feeling right in your browser. Play 1v1 with a friend, chat and talk while you play, mark your numbers, and race to complete your Bingo first. No downloads, no setup — just invite your opponent and start the game! 🏆",
+      "image": "assets/bingo.png",
+      "icon": "assets/bingo.png",
+      "category": "Games",
+      "type": "Browser Game",
+      "status": "Live",
+      "featured": true,
+      "technologies": ["React", "Socket.io","TypeScript","WebRTC"],
+      "links": {
+        "demo": "https://bingo-yxt7.onrender.com"
+      },
+      "year": "2026"
+    },
+    {
+      "id": "Chat120",
+      "name": "Chat120",
+      "description": "An On browser Application that can share file with each other and remove all the trace after 2hr.",
+      "longDescription": "A WebApplication For sharing code , files , simple chat , calls , and group chat. It makes these all things easier with help of current technologies no login or signup required no trace of your chat stays after 1hr and your id trace automatically removes after 2hr",
+      "image": "assets/chat120.png",
+      "icon": "assets/chat120.png",
+      "category": "Social",
+      "type": "Sharing",
+      "status": "Live",
+      "featured": true,
+      "technologies": ["React","TypeScript","Socket.io","WebRTC","Firebase"],
+      "links": {
+        "demo": "https://chat120-sable.vercel.app"
+      },
+      "year": "2026"
+    },
+    {
+      "id": "AI Signbridge",
+      "name": "AI Signbridge",
+      "description": "An Project for Blind people for there daily help ",
+      "image": "assets/signbridge.jpg",
+      "icon": "assets/signbridge.jpg",
+      "category": "Experiments",
+      "status": "Archived",
+      "technologies": ["CSS", "JavaScript","HTML"],
+      "year": "2025"
+    }
+  ]
+}
